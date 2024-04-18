@@ -1,0 +1,132 @@
+<app-shitty-navbar/>
+<div class="subheader">
+    <p>Electrónicos › Computadoras, Componentes y Accesorios › Componentes › Gabinetes para Computadora de Escritorio</p>
+</div>
+<div class="root">
+    <div class="leftCol">
+        <img src="{{product?.imgUrl}}" alt="" >
+
+    </div>
+    <div class="centerCol">
+        <div class="title-shit bb">
+            <h1>{{product?.title}}</h1>
+            <p><a (click)="onMakerChange(product?.maker)" style="cursor: pointer;">Marca: {{product?.maker}}</a></p>
+            <div class="ratings">
+                <p>4.3</p>
+                <img src="../../../assets/images/stars.png" alt="">
+                <img src="../../../assets/images/down-arrow.png">
+                <p>53 calificaciones</p>
+            </div>
+        </div>
+        <div class="price-shit">
+            <p>$</p>
+            <h1 class="price-tag">{{formatNumberWithCommas(product?.price)}}</h1>
+        </div>
+        <div class="bb">
+            <div class="dfr sdr-text">
+                <p class="linkc">
+                    Cargos de importación Incluido    
+                </p>
+                <img src="../../../assets/images/down-arrow.png" class="smallarrow">
+            </div>
+            <div class="dfr sdr-text">
+                <span>Hasta </span>
+                <span style="font-weight: bold; padding-left: 3px"> 12 meses sin intereses</span>
+                <span style="padding-left: 3px;"> de ${{calculoMesesSinIntereses(product?.price)}}</span>
+                <span class="linkc options">   Ver mas opciones.</span>
+                <img src="../../../assets/images/down-arrow.png" class="smallarrow">
+            </div>
+            <div class="paymenttest dfr">
+                <div class="dfc sh center fat">
+                    <img src="https://m.media-amazon.com/images/G/33/A2I-Convert/mobile/IconFarm/icon-payments-and-security._CB641735046_.png" alt="" class="mini center">
+                    <p class="sdr-text linkc center">Pagos y seguridad</p>
+                </div>
+                <div class="dfc sh center fat">
+                    <img src="https://m.media-amazon.com/images/G/33/A2I-Convert/mobile/IconFarm/icon-returns._CB406595570_.png" alt="" class="mini center">
+                    <p class="sdr-text linkc center">30 días de devolución sin costo</p>
+                </div>
+            </div>
+        </div>
+        <div class="infodump sdr-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa repudiandae ipsum adipisci autem omnis sapiente doloremque vel totam amet eligendi, ab placeat, vero libero quasi eaque nemo aspernatur voluptatem?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio dicta, saepe inventore consectetur laudantium sapiente facere quae debitis tempore similique soluta magnam ratione fugiat blanditiis et earum, eveniet, facilis quisquam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolores aspernatur corporis itaque vitae unde distinctio dicta sapiente hic, ipsam sed dignissimos maiores quibusdam, aut voluptates magnam sit veniam vel.
+        </div>
+    </div>
+    <div class="rightCol ba dfc">
+        <div class="price-shit">
+            <p>$</p>
+            <h1 class="price-tag">{{formatNumberWithCommas(product?.price)}}</h1>
+        </div>
+        <div class="dfr sdr-text">
+            <p class="linkc">
+                Cargos de importación Incluido    
+            </p>
+            <img src="../../../assets/images/down-arrow.png" class="smallarrow">
+        </div>
+        <br>
+        <br>
+
+        <div class="shippingpart1 dfr sdr-text">
+            <span>
+                Entrega por $1,405.42 entre el
+                <span style="font-weight: bold;">13 de marzo - 4 de abril.</span>
+                  
+                <span class="linkc">Ver detalles</span>
+
+            </span>
+        </div>
+        <div class="sendto dfr sdr-text">
+            <fa-icon [icon]="locationdot"></fa-icon>
+            <p  class="linkc sf" style="padding-left: 8px; align-self: center;">Enviar a Joseph - Merida 97000‌</p>
+        </div>
+        <br>
+        <p class="good">Disponible: {{product?.stock}} en stock</p>
+        <br>
+        <span class="sdr-text">
+            Este producto vendido por Amazon Estados Unidos es importado y puede ser diferente a la versión disponible en México. Aplican
+            <span class="linkc">
+                términos y condiciones 
+            </span>
+            separados.
+            <span class="linkc">
+                Mas informacion
+            </span>
+            <img src="../../../assets/images/down-arrow.png" class="smallarrow">
+        </span>
+        <div class="amntbutton sdr-text ba dfr" >
+            <p>Cantidad:  1</p>
+        </div>
+
+        <div class="btn center sdr-text" style="background-color: #FFD814;">
+            <p>Agregar al Carrito</p>
+        </div>
+        <div class="btn center sdr-text" style="background-color: #FFA41C;">
+            <p>Comprar ahora</p>
+        </div>
+        <div class="sendinfo sf">
+            <div class="send">
+                <p>
+                    Envío desde
+                </p>
+            </div>
+            <div class="sender">
+                <p>                    
+                    Amazon Estados Unidos
+                </p>
+            </div>
+            <div class="send">
+                Vendido por
+            </div>
+            <div class="sender linkc">
+                Amazon Estados Unidos
+            </div>
+            <div class="send">
+                Pago
+            </div>
+            <div class="sender linkc">                
+                Transacción segura
+            </div>
+        </div>
+    </div>
+</div>

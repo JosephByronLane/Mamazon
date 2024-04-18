@@ -1,0 +1,70 @@
+<nav class="navbar">
+
+    <div class="nav-logo border">
+        <div class="logo " routerLink=""></div>
+    </div>
+
+    <div class="nav-address border mobile-hidden">
+        <p class="add-content-first">Enviar a Joseph</p>
+
+        <div class="add-location">
+            <fa-icon [icon]="locationdot"></fa-icon>
+            <p class="location">No me doxeare</p>
+        </div>
+    </div>
+    <form (submit)="onSearch($event, searchTerm.value)">
+        <div class="search-box">
+            <div class="select-box">
+                <select>
+                    <option value="All">Todas las categorias</option>
+                </select>
+            </div>
+            <div class="search-input">
+                <input type="text" placeholder="Buscar Mamazon.com.mx" #searchTerm>
+            </div>
+    
+            <div class="search-icon">
+                <fa-icon [icon]="magglass"></fa-icon>
+            </div>
+        </div>
+    </form>
+
+
+    <div class="account-box nav-same-format border mobile-hidden">
+        <p><span>Hola Joseph</span></p>
+        <p>Cuenta y Listas <img src="../../../assets/images/down-arrow.png"></p>
+    </div>
+
+    <div class="return-box nav-same-format border mobile-hidden">
+        <p><span>Devoluciones</span></p>
+        <p>Y Pedidos</p>
+    </div>
+
+    <div class="cart-box border">
+        <span class="total-item">0</span>
+        <img src="../../../assets/images/cart.png">
+        <p>Carrito</p>
+    </div>
+</nav>
+<div class="panel">
+    <div class="panel-all border" [routerLink]="'search'">
+        <fa-icon [icon]="burgerbar"></fa-icon>
+        Todo
+    </div>
+
+    <div class="panel-links">
+        <a [routerLink]="" class="border">Vender</a>
+        <a href="#" class="border">Comprar de nuevo</a>
+        <a href="#" class="border mobile-hidden">Historial de busqueda</a>
+        <a href="#" class="border">Mamazon.com.mx de Joseph</a>
+        <a href="#" class="border">Tarjetas de regalo</a>
+        <a href="#" class="border">Servicio al Cliente</a>
+        <a href="#" class="border">Promociones</a>
+        <a href="#" class="border">MamazonBasics</a>
+        <a href="#" class="border">Mas vendidos</a>
+        <a [routerLink]="['contact-us']" class="border">Contactanos</a>
+        <a href="#" class="border">GPU</a>
+        <a [routerLink]="['about']"  class="border">Nosotros</a>
+    </div>
+</div>
+<script src="https://kit.fontawesome.com/f8c0707365.js" crossorigin="anonymous"></script>

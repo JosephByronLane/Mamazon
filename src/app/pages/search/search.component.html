@@ -1,0 +1,42 @@
+
+<div class="root">
+  <div class="title dfc">
+    <h1>Resultados</h1>
+    <p>Consulta la página de detalle del producto para ver otras opciones de compra.</p>
+  </div>  
+  <div class="actual-products">
+    <div class="grid4-4">
+      @for (result of searchResults; track $index) {
+        <div class="product-card">
+          <a routerLink="/products/{{result.id}}"><img src="{{result.imgUrl}}" alt=""></a>
+         
+          <h3 class="sdr-txt sfz" routerLink="/products/{{result.id}}">{{ result.title }}</h3>
+          <div class="stars">
+            <img src="../../../assets/images/stars.png" alt="">
+            <img src="../../../assets/images/down-arrow.png">
+            <p>53</p>
+        </div>
+        <div class="price-shit">
+          <p>$</p>
+          <h2 class="price-tag">{{formatNumberWithCommas(result?.price)}}</h2>
+        </div>
+        <div class="dfr sdr-txt">
+          <span style="padding-left: 3px; color: #565959!important;">Hasta 12 meses sin intereses de ${{calculoMesesSinIntereses(result?.price)}}</span>
+        </div>
+        <div class="sdr-txt">
+          <span>Entrega GRATIS el </span>
+          <span style="font-weight: bold; padding-left: 3px"> sab, 2  de mar</span>
+          <span style="padding-left: 3px;"><br> O entrega mas rapida</span>
+          <span style="font-weight: bold; padding-left: 3px"> mañana, 1 de mar</span>
+        </div>
+        <div class="btn">
+          <button>
+            Agregar al carrito
+          </button>
+        </div>
+      </div>       
+      }  
+    </div>
+  </div>
+
+</div>

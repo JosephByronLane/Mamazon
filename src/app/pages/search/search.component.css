@@ -1,0 +1,107 @@
+.title h1{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: bolder;
+}
+.actual-products{
+    margin-top: 4px;
+
+}
+.title p{
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #565959!important;
+    font-size:14px;
+    line-height: 20px;
+}
+
+.dfc{
+    display: flex;
+    flex-direction: column;
+}
+
+.root{
+    padding: 24px;
+}
+
+.grid4-4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 8px;
+}
+.btn{
+margin-top: 8px;
+}
+.btn button{
+
+    border-radius: 7px;
+    padding: 1px 10px 1px 11px;
+    text-align: center;
+    line-height: 29px;
+    background: #FFD814;
+    box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+    border: none;
+}
+.sdr-txt{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+.product-card{
+    height: 100%;
+    border: 1px solid #ebebeb;
+    overflow: hidden;
+    border-radius: 4px;
+    margin: 0 4px ;
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px 0 8px;
+    height: 100%;
+}
+
+.product-card img{
+    object-fit: contain;
+    margin-bottom: 8px;
+    width: 100%;
+    max-height: 300px;
+}
+
+.product-card h3{
+    margin-top: 8px;
+    cursor: pointer;
+}
+.price-shit {
+    display: flex;
+}
+.price-shit p{
+    font-size: 16px;
+}
+.price-tag{
+    font-size: 28px !important;
+    font-weight: 500;
+}
+.sfz{
+    font-size: 16px;
+}
+.dfr{
+    display: flex;
+    flex-direction: row;
+}
+.stars{
+    padding-top: 4px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.stars p{
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #007185;
+    text-decoration: none;
+}
+.stars img{
+    height: 18px;
+}

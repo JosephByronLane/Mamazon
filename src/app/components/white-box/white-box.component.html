@@ -1,0 +1,34 @@
+<div class="col">
+  <h2>{{ boxTitle }}</h2>
+  @if (NumberOfPanels==4) {
+    <div class="gallery-four-image">
+      @for (ite of item; track $index) {
+        @if (isItem) {
+          <div><a routerLink="products/{{ite.id}}"><img src="{{ite.imgUrl}}"></a>
+            <p>{{truncateTitle(ite.title, 22)}}</p>
+        </div>
+        }
+        @if (!isItem) {
+          @if (ite.link==="Maker") {
+            <div><a (click)="onMakerChange(ite.maker)"><img src="{{ite.imgUrl}}"></a>
+              <p>{{truncateTitle(ite.title, 22)}}</p>
+            </div>
+          }
+
+          @else {
+            <div><a (click)="onTypeChange(ite.maker)"><img src="{{ite.imgUrl}}"></a>
+              <p>{{truncateTitle(ite.title, 22)}}</p>
+            </div>
+          }
+        }
+
+      }
+    </div>
+  }
+  @if (NumberOfPanels==1) {
+    <div class="gallery-single-image">
+      <img src="{{item[0].imgUrl}}">
+  </div>
+  } 
+  <p><a (click)="onTypeChange(textLink)">{{seeMoreText}}</a></p>
+</div>

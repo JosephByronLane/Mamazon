@@ -1,0 +1,95 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.prime-holder {
+    position: relative;
+    height: 35vh;
+    width: 100%; 
+    z-index: -1; 
+}
+  
+  .prime-add {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 35vh;
+    background-image: url('../../../assets/images/prime-ad.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover; 
+}
+  
+  .prime-gradient {
+    position: absolute; 
+    top: 35vh; 
+    left: 0;
+    width: 100%; 
+    height: 50vh; 
+    background-image: linear-gradient(to bottom, #0099ff, #f4f4f4);
+    background-size: cover; 
+  }
+  
+.prime-end{
+    position: absolute; 
+    top: 0;
+    background-color: #f4f4f4;
+    height: 300vh;
+    width: 100%; 
+    background-size: cover; 
+    z-index: -2;
+
+}
+
+  .shopping-category {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    top: 240px;
+    left: 0;
+    padding: 0 2%;
+    width: 100%;
+    z-index: -2;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    z-index: 5;
+  }
+  
+
+  .longbar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  .payment-grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 20px;
+    z-index: 5;
+  }
+
+  .title{
+    display: flex;
+  }
+
+  .title a{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  

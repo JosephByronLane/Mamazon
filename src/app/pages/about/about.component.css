@@ -1,0 +1,79 @@
+.root{
+    color: white;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.actual-root{
+    background-color: #232f3e;
+
+}
+.top-part{
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: .7fr 3fr;
+}
+.who{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.whob{
+    font-size: 24px;
+    line-height: 1.42;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.boxxy-foxxy{
+    background-color: #19212b;
+    padding: 30px 30px 40px;
+    height: 100%;
+}
+
+.title{
+    color: #f90,
+
+}
+
+.shitty-shit{
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.title{
+    font-size: 24px;
+    color:#f90;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.42;
+    margin-bottom: 30px;
+}
+
+.desc{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.44;
+    padding-bottom: 30px;
+    margin-top: auto;
+}
+.shittyimg img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.44;
+    padding: 15px;
+    border-radius: 22px;
+    height: 44px;
+    border: 2px solid #707379;
+    background-color: transparent;
+    color: white;
+
+    cursor: pointer;
+}

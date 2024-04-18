@@ -1,0 +1,51 @@
+.root{
+    font-family: 'Open Sans', Arial, sans-serif;
+    padding: 45px 20px 45px 20px;
+    margin: auto;
+    max-width: 1300px;
+    
+}
+
+.root h1{
+    color: white;
+}
+.root p{
+    color: white;
+}
+
+.actualroot{
+    background-color: #007185;
+
+}
+.desc{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.grid{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.desc p{
+    color: black;
+font-size: 16px;
+}
+.img{
+    margin-right: 12px;
+}
+.img img{
+    width: 60px;
+}
+.item{
+    color: black;
+    height: 94px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}

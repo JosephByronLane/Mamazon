@@ -1,0 +1,162 @@
+.root{
+    padding: 14px 18px 18px;
+    display: grid;
+    grid-template-columns: 2fr 3fr 1.1fr;}
+
+.subheader{
+    font-size: 12px;
+    padding: 0 16px;
+    margin-top: 8px;
+    color: #565959!important;
+}
+.sf{
+    font-size: 12px;
+}
+.leftCol{
+    width: 100%;
+    padding-left: 40px;
+}
+
+.leftCol img{
+    width: 100%;
+}
+
+.centerCol{
+    padding:0 60px
+
+}
+.sendinfo{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 10px;
+}
+.send{
+    color: #565959!important
+}
+
+.btn{
+    border-radius: 100px;
+    padding: 6px 0;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+}
+
+.amntbutton{
+    margin: 12px 0;
+    box-shadow: 0 2px 5px rgba(15,17,17,.15);
+    border-radius: 7px;
+    background-color: #F0F2F2;
+    text-align: left;
+}
+
+.amntbutton p{
+    padding: 4px 0;
+    padding-left: 11px;
+    
+}
+.good{
+    color: #007600!important;
+
+}
+.centerCol div h1{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 520;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.centerCol div a{
+    font-size: 14px;
+    text-decoration: none;
+    color:#007185;
+}
+
+.rightCol{
+    border-radius: 8px;
+    padding: 14px 18px;
+}
+
+.ratings{
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+}
+
+.ratings img{
+    height: 18px;
+}
+.linkc{
+    color: #007185;
+    text-decoration: none;
+}
+.ratings p{
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #007185;
+    text-decoration: none;
+}
+.options{
+    padding-left: 8px;
+}
+
+.sdr-text{
+    font-size: 14px;
+    line-height: 20px;
+}
+.smallarrow{
+    height: 16px;
+}
+.dfr{
+    display: flex;
+    flex-direction: row;
+}
+
+.title-shit{
+}
+.ba{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+.bb{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px
+
+}
+.price-shit {
+    display: flex;
+}
+.price-shit p{
+    font-size: 14px;
+    margin-top: 3px;
+}
+.price-tag{
+    font-size: 28px !important;
+    font-weight: 500;
+}
+.dfc{
+    display: flex;
+    flex-direction: column;
+}
+.paymenttest{
+    padding: 25px;
+    gap: 50px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sh{
+    width: 12%;
+}
+
+.mini{
+    height: 35px;
+    width: 35px;
+}
+
+.fat{
+    margin-bottom: auto;
+}

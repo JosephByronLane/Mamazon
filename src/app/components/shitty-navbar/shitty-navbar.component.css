@@ -1,0 +1,21 @@
+.base-thing{
+    padding: 0 9px 0 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    background-color: #fafafa;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    height: 33px;
+    font-size: 12px;
+}
+.base-thing a{
+    padding: 0 11px;
+    text-decoration: none;
+    color: #0F1111;
+
+}
+
+.bold{
+    font-weight: bold;
+}
