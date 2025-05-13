@@ -5,7 +5,7 @@
  
 ## What is this?
 
-Ok so, our teacher asked us to make a e-commerce webpage as one of their second homework of the class. So I decided to re-create the amazon storefront, but instead of Amazon its Mamazon. 
+Ok so, our teacher asked us to make a e-commerce webpage as their second homework of the class. So I decided to re-create the amazon storefront, but instead of Amazon its Mamazon. 
 
 I got full marks, btw.
 
